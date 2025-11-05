@@ -1,0 +1,5 @@
+n=input("enter the list of numbers:")
+numbers=list(map(int,n.split()))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))

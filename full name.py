@@ -1,0 +1,5 @@
+first_name=input("enter your first name:")
+middle_name=input("enter you middle name:")
+last_name=input("enter your last name:")
+n1=' '.join([first_name,middle_name,last_name])
+print('the full name of the customer is:',n1)
